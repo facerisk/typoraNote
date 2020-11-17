@@ -7,3 +7,8 @@ command +option+v	提取变量
 Command + Option + L	格式化代码
 
 command+shift+/	/**/
+
+Option + Enter	快速抛异常,导包
+
+command+option+t	选中区域if..else/try..catch
+
