@@ -83,6 +83,12 @@ Grant succeeded.
 SQL> grant select any table,update any table,delete any table,insert any table,drop any table to wyf; --操作表权限
 
 Grant succeeded.
+
+SQL> exit -- 退出oracle
+Disconnected from Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+root@d83bc093026a:/# exit -- 退出docker
+exit
+lplmbp@bogon ~ % 
 ```
 
 ## 5.oracle管理工具 —navicat
@@ -107,7 +113,7 @@ navicat-keygen-mac
 ./navicat-patcher /Applications/Navicat\ Premium.app/
 ```
 
-[![img](https://image-upyun.cilicili.pro/usr/uploads/2020/05/3277471406.jpg!/compress/true)](https://image-upyun.cilicili.pro/usr/uploads/2020/05/3277471406.jpg)
+![image-20201220212900058](/Users/lplmbp/Library/Application Support/typora-user-images/image-20201220212900058.png)
 
 
 
@@ -115,7 +121,7 @@ navicat-keygen-mac
 
 1. 生成一份自签名的代码证书，并总是信任该证书。这一步非常重要, 打开 “钥匙串访问”，选择菜单栏的 钥匙串访问->证书助理->创建证书，然后证书类型选择 “代码签名”。
 
-[![img](https://image-upyun.cilicili.pro/usr/uploads/2020/05/1290794410.jpg!/compress/true)](https://image-upyun.cilicili.pro/usr/uploads/2020/05/1290794410.jpg)
+![image-20201220212929426](/Users/lplmbp/Library/Application Support/typora-user-images/image-20201220212929426.png)
 
 
 
@@ -123,12 +129,12 @@ navicat-keygen-mac
 
 1. 然后在证书上右键选择“显示简介”，在“使用证书”那里选择始终信任。
 
-[![img](https://image-upyun.cilicili.pro/usr/uploads/2020/05/34249045.jpg!/compress/true)](https://image-upyun.cilicili.pro/usr/uploads/2020/05/34249045.jpg)
+![image-20201220213009923](/Users/lplmbp/Library/Application Support/typora-user-images/image-20201220213009923.png)
 
 
 
 
-[![img](https://image-upyun.cilicili.pro/usr/uploads/2020/05/2375289758.jpg!/compress/true)](https://image-upyun.cilicili.pro/usr/uploads/2020/05/2375289758.jpg)
+![image-20201220213043630](/Users/lplmbp/Library/Application Support/typora-user-images/image-20201220213043630.png)
 
 
 
@@ -149,7 +155,7 @@ codesign -f -s Navicat /Applications/Navicat\ Premium.app/
 
 1. 依次选择 1 15 之后你会被要求填入请求码。注意 不要关闭注册机。
 
-[![img](https://image-upyun.cilicili.pro/usr/uploads/2020/05/2440802860.jpg!/compress/true)](https://image-upyun.cilicili.pro/usr/uploads/2020/05/2440802860.jpg)
+![image-20201220213112888](/Users/lplmbp/Library/Application Support/typora-user-images/image-20201220213112888.png)
 
 
 
@@ -157,7 +163,7 @@ codesign -f -s Navicat /Applications/Navicat\ Premium.app/
 
 1. **断开网络** 并打开 Navicat
 
-[![img](https://image-upyun.cilicili.pro/usr/uploads/2020/05/2052186460.jpg!/compress/true)](https://image-upyun.cilicili.pro/usr/uploads/2020/05/2052186460.jpg)
+![image-20201220213139152](/Users/lplmbp/Library/Application Support/typora-user-images/image-20201220213139152.png)
 
 
 
@@ -166,7 +172,7 @@ codesign -f -s Navicat /Applications/Navicat\ Premium.app/
 1. 找到注册窗口，填入注册机给你的序列号。然后点击激活按钮。(一般来说在线激活肯定会失败，这时候Navicat会询问你是否手动激活，直接选吧。)
 2. 在手动激活窗口你会得到一个请求码，复制它并把它粘贴到keygen里。最后别忘了连按至少两下回车结束输入。
 
-[![img](https://image-upyun.cilicili.pro/usr/uploads/2020/05/2891509031.jpg!/compress/true)](https://image-upyun.cilicili.pro/usr/uploads/2020/05/2891509031.jpg)
+![image-20201220213210089](/Users/lplmbp/Library/Application Support/typora-user-images/image-20201220213210089.png)
 
 
 
@@ -177,4 +183,3 @@ codesign -f -s Navicat /Applications/Navicat\ Premium.app/
 直接复制它，并把它粘贴到Navicat的手动激活窗口，最后点激活按钮。
 如果没什么意外的话应该能成功激活。
 
-[![img](https://image-upyun.cilicili.pro/usr/uploads/2020/05/4253147908.jpg!/compress/true)](https://image-upyun.cilicili.pro/usr/uploads/2020/05/4253147908.jpg)
