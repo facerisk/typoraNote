@@ -1,31 +1,18 @@
-## IOC
-
-Doc
-
-```
-sudo rm -Rf /Applications/Navicat\ Premium.app
+## IOC：控制反转
 
 
 
-sudo rm -Rf /private/var/db/BootCaches/CB6F12B3-2C14-461E-B5A7-A8621B7FF130/app.com.prect.NavicatPremium.playlist
+![image-20201221205253779](/Users/lplmbp/Library/Application Support/typora-user-images/image-20201221205253779.png)
+
+循环依赖
 
 
 
-sudo rm -Rf ~/Library/Caches/com.apple.helpd/SDMHelpData/Other/English/HelpSDMIndexFile/com.prect.NavicatPremium.help
+![image-20201220225343389](/Users/lplmbp/Library/Application Support/typora-user-images/image-20201220225343389.png)
 
 
 
-sudo rm -Rf ~/Library/Caches/com.apple.helpd/SDMHelpData/Other/zh_CN/HelpSDMIndexFile/com.prect.NavicatPremium.help
+动态代理
 
+![image-20201220230735690](/Users/lplmbp/Library/Application Support/typora-user-images/image-20201220230735690.png)
 
-
-sudo rm -Rf ~/Library/Preferences/com.prect.NavicatPremium.plist 
-
-
-
-sudo rm -Rf ~/Library/Application\ Support/CrashReporter/Navicat\ Premium_54EDA2E9-528D-5778-A528-BBF9A4CE8BDC.plist
-
-
-
-sudo rm -Rf ~/Library/Application\ Support/PremiumSoft\ CyberTech
-```
